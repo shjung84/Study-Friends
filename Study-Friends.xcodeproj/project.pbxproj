@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57642DB127A806F400D486F1 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57642DB027A806F400D486F1 /* Request.swift */; };
+		57642DB327AEFC0200D486F1 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57642DB227AEFC0200D486F1 /* FriendTableViewCell.swift */; };
+		57642DB527AEFFC200D486F1 /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57642DB427AEFFC100D486F1 /* FriendTableViewCell.xib */; };
 		5795AF7927942B9D0035E4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795AF7827942B9D0035E4E3 /* AppDelegate.swift */; };
 		5795AF7B27942B9D0035E4E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795AF7A27942B9D0035E4E3 /* SceneDelegate.swift */; };
 		5795AF7D27942B9D0035E4E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795AF7C27942B9D0035E4E3 /* ViewController.swift */; };
 		5795AF8027942B9D0035E4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5795AF7E27942B9D0035E4E3 /* Main.storyboard */; };
 		5795AF8227942B9F0035E4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5795AF8127942B9F0035E4E3 /* Assets.xcassets */; };
 		5795AF8527942B9F0035E4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5795AF8327942B9F0035E4E3 /* LaunchScreen.storyboard */; };
+		5795B04727945ED80035E4E3 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795B04627945ED80035E4E3 /* FriendsTableViewController.swift */; };
+		5795B04927945EF30035E4E3 /* BestFriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795B04827945EF30035E4E3 /* BestFriendsTableViewController.swift */; };
+		5795B04B27945F170035E4E3 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795B04A27945F170035E4E3 /* FriendViewController.swift */; };
+		5795B04D279462190035E4E3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795B04C279462190035E4E3 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57642DB027A806F400D486F1 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		57642DB227AEFC0200D486F1 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		57642DB427AEFFC100D486F1 /* FriendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
 		5795AF7527942B9D0035E4E3 /* Study-Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study-Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5795AF7827942B9D0035E4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5795AF7A27942B9D0035E4E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,10 @@
 		5795AF8127942B9F0035E4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5795AF8427942B9F0035E4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5795AF8627942B9F0035E4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5795B04627945ED80035E4E3 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		5795B04827945EF30035E4E3 /* BestFriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestFriendsTableViewController.swift; sourceTree = "<group>"; };
+		5795B04A27945F170035E4E3 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		5795B04C279462190035E4E3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57642DB627B6D82600D486F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5795B04C279462190035E4E3 /* Person.swift */,
+				57642DB027A806F400D486F1 /* Request.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57642DB727B6D83C00D486F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5795AF7827942B9D0035E4E3 /* AppDelegate.swift */,
+				5795B04627945ED80035E4E3 /* FriendsTableViewController.swift */,
+				5795B04827945EF30035E4E3 /* BestFriendsTableViewController.swift */,
+				5795B04A27945F170035E4E3 /* FriendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		57642DB827B6D85300D486F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57642DB227AEFC0200D486F1 /* FriendTableViewCell.swift */,
+				57642DB427AEFFC100D486F1 /* FriendTableViewCell.xib */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5795AF6C27942B9D0035E4E3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +99,15 @@
 		5795AF7727942B9D0035E4E3 /* Study-Friends */ = {
 			isa = PBXGroup;
 			children = (
-				5795AF7827942B9D0035E4E3 /* AppDelegate.swift */,
+				57642DB727B6D83C00D486F1 /* Controller */,
+				57642DB827B6D85300D486F1 /* Model */,
+				57642DB627B6D82600D486F1 /* View */,
+				5795AF8627942B9F0035E4E3 /* Info.plist */,
 				5795AF7A27942B9D0035E4E3 /* SceneDelegate.swift */,
 				5795AF7C27942B9D0035E4E3 /* ViewController.swift */,
-				5795AF7E27942B9D0035E4E3 /* Main.storyboard */,
 				5795AF8127942B9F0035E4E3 /* Assets.xcassets */,
 				5795AF8327942B9F0035E4E3 /* LaunchScreen.storyboard */,
-				5795AF8627942B9F0035E4E3 /* Info.plist */,
+				5795AF7E27942B9D0035E4E3 /* Main.storyboard */,
 			);
 			path = "Study-Friends";
 			sourceTree = "<group>";
@@ -128,6 +173,7 @@
 				5795AF8527942B9F0035E4E3 /* LaunchScreen.storyboard in Resources */,
 				5795AF8227942B9F0035E4E3 /* Assets.xcassets in Resources */,
 				5795AF8027942B9D0035E4E3 /* Main.storyboard in Resources */,
+				57642DB527AEFFC200D486F1 /* FriendTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57642DB327AEFC0200D486F1 /* FriendTableViewCell.swift in Sources */,
+				5795B04B27945F170035E4E3 /* FriendViewController.swift in Sources */,
+				57642DB127A806F400D486F1 /* Request.swift in Sources */,
 				5795AF7D27942B9D0035E4E3 /* ViewController.swift in Sources */,
 				5795AF7927942B9D0035E4E3 /* AppDelegate.swift in Sources */,
+				5795B04927945EF30035E4E3 /* BestFriendsTableViewController.swift in Sources */,
+				5795B04D279462190035E4E3 /* Person.swift in Sources */,
+				5795B04727945ED80035E4E3 /* FriendsTableViewController.swift in Sources */,
 				5795AF7B27942B9D0035E4E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

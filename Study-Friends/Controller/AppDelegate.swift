@@ -1,16 +1,14 @@
 //
 //  AppDelegate.swift
-//  Study-Friends
+//  Friends
 //
-//  Created by SH.Jung on 2022/01/16.
+//  Created by SH.Jung on 2021/09/30.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.

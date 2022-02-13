@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Study-Friends
+//  Friends
 //
-//  Created by SH.Jung on 2022/01/16.
+//  Created by SH.Jung on 2021/09/30.
 //
 
 import UIKit
